@@ -1,0 +1,51 @@
+/*
+   BubblesRUs Style Sheet
+   Author: Josh Farkas
+   Date:   
+
+   Filename:         BubblesRUs.css
+   Supporting Files: none
+
+*/
+body {background-image: url(images/background.jpg); font-family:Arial, Helvetica, sans-serif} 
+h2 {font-size: 2em; letter-spacing: 0.4em; text-indent: 1em}
+h3 {width: 20em; padding-left: 1em}
+h2, h3 {color: white; background-color: #077FB5 }
+p {text-indent:2em}
+
+#links a {display: block; margin: 0.3em}
+.pageimage {float: right; margin: 0em 0em 1em 1em}
+#outer {width: 56em}
+#links {float: left; width: 10em; background-image: url(images/links.jpg); border-style: solid; border-width: 0.5em; border-color:#077FB5; height: 375px; position: absolute}
+#inner {margin-left: 12em; padding-left: 1em; }
+
+a:link {color:white;}      
+a:visited {color:white;}
+
+table.schedule {border-style: solid; border-width: 0.5em; border-color:#077FB5; border-collapse: collapse}
+table.schedule th, table.schedule td {border: 1px solid gray; width:100px}
+.tableimage {height:300px; width:300px}
+
+fieldset {margin-bottom: 10px; padding: 10px; border-style: solid; border-width: 0.5em; border-color:#077FB5;}
+
+label.blockLabel {display: block; position: relative; margin: 12px 0px}
+label.blockLabel input {position: absolute; left: 150px}
+
+#inner span {color: red}
+label.indentLabel {margin-left: 150px}
+
+#firstName, #lastName, #street {width: 25em}
+#phone, #city {width: 10em}
+#state {width: 3em}
+#zip {width: 7em}
+
+#addressOptions {width: 180px; margin-left: 150px}
+.subfield{border-width:1px}
+table td {text-align: center}
+#htmlcheck {float:right}
+.tablehead {text-align:center}
+caption {text-align:center}
+
+
+
+

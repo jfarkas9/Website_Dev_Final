@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<!--
+	Author:  Josh Farkas         
+	Date:              
+
+	Filename:         info.htm
+	Supporting files: 
+
+	All images are used under Creative Commons
+	http://creativecommons.org/licenses/by-sa/3.0/
+	-->
+	<link rel="icon" href="images/Icon.png" type="image/x-icon" />
+	<title>BubblesRUs Info</title>
+	<link href="BubblesRUs.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+<div id="outer">
+	<h1><img src="images/top2.jpg" alt="BubblesRUs" /></h1>
+	<div id="links">
+		<a href="home.htm">Home</a>
+		<a href="About.htm">About Us</a>
+		<a href="Schedule.htm">Schedule</a>
+		<a href="Info.htm">Request Information</a>
+	</div>
+	<div id="inner">
+		<h2>Request Information</h2>
+					
+	<p><span>*</span> indicates required information</p>
+
+<form name="donationForm" id="donationForm" method="post">
+	<input type="hidden" name="eMail" id="eMail" value="bubblesrus@mail.com" />
+
+<fieldset id="contact">
+	<legend>Contact Information</legend>
+	
+	<label class="blockLabel">
+		First Name<span>*</span>
+		<input type="text" id="firstName" name="firstName" />
+	</label>
+
+	<label class="blockLabel">
+		Last Name<span>*</span>
+		<input type="text" id="lastName" name="lastName" />
+	</label>
+
+	<label class="blockLabel">
+		Phone<span>*</span>
+		<input type="text" id="phone" name="phone" />
+	</label>
+	
+	<label class="blockLabel">
+		Email
+		<input type="text" id="email" name="email" />
+	</label>
+
+	<label class="blockLabel">
+		Street Address
+		<input type="text" id="street" name="street" />
+	</label>
+
+	<label class="indentLabel">
+		City
+		<input type="text" id="city" name="city" />
+	</label>
+
+	<label>
+		State
+		<input type="text" id="state" name="state" maxlength="2" />
+	</label>
+
+	<label>
+		ZIP
+		<input type="text" id="zip" name="zip" maxlength="10" />
+	</label>
+	
+	<fieldset id="contactOptions" class="subfield">
+			<legend> Prefered Method of Contact</legend>
+				
+				<input type="radio" id="phoneOption" name="contactType" value="phoneOption" />
+				<label for ="phoneOption">Phone</label>
+					
+				<input type="radio" id="emailOption" name="contactType" value="emailOption" />	
+				<label for="emailOption">Email</label>
+				
+				<input type="radio" id="otherOption" name="contactType" value="otherOption" />	
+				<label for="otherOption">Other</label>
+				<input type="text" id="otherOption" name="otherOption" />
+	</fieldset>
+</fieldset>
+
+<fieldset id="trip">
+	<legend>Trip Type</legend>
+
+	<fieldset id="experienceOptions" class="subfield">
+		<legend> Experience Type</legend>
+			
+			<input type="radio" id="none" name="experienceType" value="none" />
+			<label for ="none">None</label>
+				
+			<input type="radio" id="beginner" name="experienceType" value="beginner" />	
+			<label for="beginner">Beginner</label>
+				
+			<input type="radio" id="intermediate" name="experienceType" value="intermediate" />	
+			<label for="intermediate">Intermediate</label>
+				
+			<input type="radio" id="advanced" name="advanced" value="advanced" />	
+			<label for="advanced">Advanced</label>
+				
+			<input type="radio" id="other" name="experienceType" value="other" />	
+			<label for="other">Other/Mixed Group</label>
+				
+	</fieldset>	
+	
+	<label class="blockLabel">
+		Party Size
+		<input type="text" id="size" name="size" />
+	</label>
+	
+		<label>
+		Day Attending :
+		<select id="daySelect" name="daySelect">
+			<option value="mon">Monday</option>
+			<option value="tue">Tuesday</option>
+			<option value="wed">Wednesday</option>
+			<option value="thu">Thursday</option>
+			<option value="fri">Friday</option>
+			<option value="sat">Saturday</option>
+			<option value="sun">Sunday</option>
+			<option value="cust">Customized</option>
+		</select>
+	</label>
+	<label>
+		<select id="tripMonth" name="tripMonth">
+			<option value="01">January</option>
+			<option value="02">February</option>
+			<option value="03">March</option>
+			<option value="04">April</option>
+			<option value="05">May</option>
+			<option value="06">June</option>
+			<option value="07">July</option>
+			<option value="08">August</option>
+			<option value="09">September</option>
+			<option value="10">October</option>
+			<option value="11">November</option>
+			<option value="12">December</option>
+		</select>
+	</label>
+
+	<label>
+		<select id="tripDay" name="tripDay">
+			<option value="01">01</option>
+			<option value="02">02</option>
+			<option value="03">03</option>
+			<option value="04">04</option>
+			<option value="05">05</option>
+			<option value="06">06</option>
+			<option value="07">07</option>
+			<option value="08">08</option>
+			<option value="09">09</option>
+			<option value="10">10</option>
+			<option value="11">11</option>
+			<option value="12">12</option>
+			<option value="13">13</option>
+			<option value="14">14</option>
+			<option value="15">15</option>
+			<option value="16">16</option>
+			<option value="17">17</option>
+			<option value="18">18</option>
+			<option value="19">19</option>
+			<option value="20">20</option>
+			<option value="21">21</option>
+			<option value="22">23</option>
+			<option value="24">24</option>
+			<option value="25">25</option>
+			<option value="26">26</option>
+			<option value="27">27</option>
+			<option value="28">28</option>
+			<option value="29">29</option>
+			<option value="30">30</option>
+			<option value="31">31</option>
+		</select>
+</label>
+
+
+<fieldset id="activityType" name="activityType" class="subfield">
+	<legend>Prefered Activity:</legend>
+	<input type="radio" id="scuba" name="activity" value="scuba" />	
+				<label for="scuba">SCUBA</label>
+	<input type="radio" id="snorkel" name="activity" value="snorkel" />	
+				<label for="snorkel">Snorkel</label>
+	<input type="radio" id="both" name="activity" value="both" />	
+				<label for="both">Both</label>
+</fieldset>
+
+<br />
+Learn more about our trips at the <a href="schedule.htm">Schedule</a> page.
+
+</fieldset>
+	</label>
+
+
+
+<fieldset id="feedback">
+<legend>Feedback</legend>
+
+<input type="checkbox" id="mailList" name="mailList" />
+Add me to the mailing list.
+</label>
+
+<label for="comments" class="blockLabel">Comments</label>
+<textarea id="comments" name="comments" rows="5" cols="50"></textarea>
+</fieldset>
+
+<input type="submit" value="Send" />
+<input type="reset" value="Reset" />
+
+</form>
+</div>
+
+</div>
+</body>
+</html>
